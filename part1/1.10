@@ -1,0 +1,1 @@
+docker run --rm -dp 8080:8080 web-server
