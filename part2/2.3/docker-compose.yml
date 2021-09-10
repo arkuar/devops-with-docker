@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+  backend:
+    image: backend
+    ports: 
+      - 8080:8080
+    container_name: compose-backend
+  frontend:
+    image: frontend
+    ports: 
+      - 5000:5000
+    container_name: compose-frontend
