@@ -59,7 +59,7 @@ if [[ -z "$DOCKERHUB_TOKEN" ]]; then
   exit
 fi
 
-if [[ -z NAME ]]; then
+if [[ -z "$NAME" ]]; then
   echo "Image name is missing!"
   exit
 fi
